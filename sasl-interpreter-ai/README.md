@@ -24,13 +24,13 @@ This project is designed to **support digital inclusion and accessibility**, pro
 
 sasl-interpreter-ai/
 ├── public/
-│ └── vite.svg
+│ └── index.html
 ├── src/
-│ ├── main.jsx
-│ ├── App.jsx
+│ ├── index.js
+│ ├── App.js
 │ ├── components/
-│ │ ├── CameraFeed.jsx
-│ │ └── SignOutput.jsx
+│ │ ├── CameraFeed.js
+│ │ └── SignOutput.js
 │ ├── ml/
 │ │ ├── mediapipe.js
 │ │ └── classifier.js
@@ -38,11 +38,7 @@ sasl-interpreter-ai/
 │ │ └── landmarks.js
 │ └── styles/
 │ └── app.css
-├── index.html
 ├── package.json
-├── vite.config.js
-├── eslint.config.js
-├── LICENSE
 └── README.md
 
 
@@ -62,4 +58,4 @@ sasl-interpreter-ai/
 
 ```bash
 npm install
-npm start
+npm run dev
